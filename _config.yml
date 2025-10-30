@@ -1,0 +1,38 @@
+# Setup
+title: Kangen
+tagline: blog
+url: "https://kangen.solusijodoh.com"   # isi dengan domain asli kamu
+baseurl: "/"
+permalink: /:title
+
+# Plugins (Gems)
+plugins:
+  - jekyll-gist
+  - jekyll-seo-tag
+  - jekyll-sitemap     # <--- tambahkan ini
+
+# Optimize Jekyll
+exclude:
+  - .editorconfig
+  - .git
+  - .jekyll-cache
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE.md
+  - README.md
+
+sass:
+  sass_dir: _sass
+  style: :compressed
+
+# Google Analytics (optional)
+# ga_analytics: UA-000000-0
+
+# Author info
+author:
+  name: M admin
+  url: https://twitter.com/ebi
+  email: madmin@gmail.com
+
+# Custom vars
+version: 3.0.0
